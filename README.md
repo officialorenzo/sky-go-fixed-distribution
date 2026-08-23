@@ -4,9 +4,9 @@ Launcher di compatibilità non ufficiale per usare Sky Go Italia su macOS 26 qua
 
 ## download rapido
 
-- [Scarica il DMG per Mac](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/download/v1.3/Sky-Go-Fixed-Installer-macOS-26.dmg)
-- [Scarica lo ZIP per Mac](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/download/v1.3/Sky-Go-Fixed-Installer-macOS-26.zip)
-- [Apri la release v1.3 e verifica gli hash](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/tag/v1.3)
+- [Scarica il DMG per Mac](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/download/v1.3.1/Sky-Go-Fixed-Installer-macOS-26.dmg)
+- [Scarica lo ZIP per Mac](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/download/v1.3.1/Sky-Go-Fixed-Installer-macOS-26.zip)
+- [Apri la release v1.3.1 e verifica gli hash](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/tag/v1.3.1)
 
 Il DMG è la procedura più semplice. L'installer non è ancora notarizzato da Apple, quindi al primo avvio macOS 26 può mostrare soltanto il pulsante **Fine** e bloccarne l'esecuzione.
 
