@@ -1,17 +1,27 @@
-SKY GO FIXED — INSTALLAZIONE
+SKY GO FIXED — INSTALLAZIONE SU macOS 26
 
-1. Apri il file DMG oppure estrai completamente lo ZIP.
-2. Fai clic destro su “Installa Sky Go Fixed” e scegli “Apri”.
-3. Conferma “Apri” nell’avviso di macOS.
-4. Lascia terminare il download. Al termine si aprirà Sky Go Fixed.
+IMPORTANTE: L'INSTALLER NON È ANCORA NOTARIZZATO DA APPLE
+
+1. Se usi lo ZIP, estrailo completamente. Se usi il DMG, aprilo.
+2. Prova ad avviare “Installa Sky Go Fixed”.
+3. Se macOS mostra l'avviso di sicurezza con il solo pulsante “Fine”,
+   premi “Fine”.
+4. Apri Impostazioni di Sistema → Privacy e sicurezza.
+5. Scorri fino alla sezione Sicurezza e premi “Apri comunque” accanto
+   a “Installa Sky Go Fixed”.
+6. Autorizza con password o Touch ID, quindi conferma “Apri”.
+7. Lascia terminare il download e l'installazione.
+8. Al termine troverai “Sky Go Fixed” nella cartella Applicazioni.
+
+macOS salva l'eccezione per questa app. Sui Mac aziendali gestiti,
+l'amministratore può impedire l'uso di “Apri comunque”.
 
 L’app finale viene installata in:
 /Applications/Sky Go Fixed.app
 
 Se necessario, macOS chiederà la password amministratore per scrivere nella
-cartella Applicazioni. Non sono richiesti Terminale o passaggi manuali: al
-termine l’app si apre automaticamente ed è disponibile dal Finder e da
-Launchpad come una normale applicazione.
+cartella Applicazioni. Al termine l'app si apre automaticamente ed è
+disponibile dal Finder e da Launchpad come una normale applicazione.
 
 Ogni persona accede tramite la schermata originale di Sky con il proprio
 account. L’installer non contiene e non trasferisce account, password, cookie,
@@ -27,6 +37,6 @@ REQUISITI E LIMITI
 - Su Apple Silicon, macOS può richiedere Rosetta al primo avvio.
 - Correzione locale non ufficiale e non supportata da Sky.
 - Login, abbonamento, limiti dei dispositivi e DRM restano quelli di Sky.
-- Electron 41.10.3 riduce la latenza dell’interfaccia rispetto al vecchio motore
-  incluso da Sky, ma il codice Sky resta Intel e viene tradotto tramite Rosetta.
+- L'installer Sky Go Fixed usa una firma locale ad hoc e non è notarizzato.
+- Il codice Sky resta Intel e viene tradotto tramite Rosetta.
 - Un aggiornamento futuro di Sky può richiedere una nuova versione.
