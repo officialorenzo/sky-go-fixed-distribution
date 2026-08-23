@@ -4,11 +4,19 @@ Launcher di compatibilità non ufficiale per usare Sky Go Italia su macOS 26 qua
 
 ## download rapido
 
-- [Scarica il DMG per Mac](https://github.com/officialorenzo/sky-go-fixed-distribution/releases/download/v1.3/Sky-Go-Fixed-Installer-macOS-26.dmg)
-- [Scarica lo ZIP per Mac](https://github.com/officialorenzo/sky-go-fixed-distribution/releases/download/v1.3/Sky-Go-Fixed-Installer-macOS-26.zip)
-- [Apri la release v1.3 e verifica gli hash](https://github.com/officialorenzo/sky-go-fixed-distribution/releases/tag/v1.3)
+- [Scarica il DMG per Mac](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/download/v1.3/Sky-Go-Fixed-Installer-macOS-26.dmg)
+- [Scarica lo ZIP per Mac](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/download/v1.3/Sky-Go-Fixed-Installer-macOS-26.zip)
+- [Apri la release v1.3 e verifica gli hash](https://github.com/FollowTheNull/sky-go-fixed-distribution/releases/tag/v1.3)
 
-Il DMG è la procedura più semplice. Apri **Installa Sky Go Fixed** con clic destro → **Apri** e conferma l’avviso di macOS. Al termine l’app viene installata realmente in `/Applications/Sky Go Fixed.app` ed è avviabile da Finder, Launchpad e Dock.
+Il DMG è la procedura più semplice. L'installer non è ancora notarizzato da Apple, quindi al primo avvio macOS 26 può mostrare soltanto il pulsante **Fine** e bloccarne l'esecuzione.
+
+1. Apri il DMG e prova ad avviare **Installa Sky Go Fixed**.
+2. Se macOS mostra l'avviso di sicurezza, premi **Fine**.
+3. Apri **Impostazioni di Sistema → Privacy e sicurezza**.
+4. Scorri fino a **Sicurezza** e premi **Apri comunque** accanto a *Installa Sky Go Fixed*.
+5. Autorizza con password o Touch ID, quindi conferma **Apri**.
+
+L'eccezione viene salvata sul Mac. Al termine dell'installazione, **Sky Go Fixed** si trova realmente in `/Applications` ed è avviabile da Finder, Launchpad e Dock. Sui Mac aziendali gestiti, l'amministratore può impedire l'uso di **Apri comunque**.
 
 ## cosa corregge la versione 1.3
 
@@ -35,14 +43,14 @@ L’installer scarica Sky Go 26.2.3 dal server ufficiale Sky ed Electron 41.10.3
 ## versioni e impronte
 
 - Sky Go Fixed **1.3**, build 6;
-- installer **1.4**, build 7;
+- installer **1.4**, build 8;
 - Sky Go **26.2.3**;
 - Electron **41.10.3** x86_64.
 
 | file | dimensione | SHA-256 |
 | --- | ---: | --- |
-| `Sky-Go-Fixed-Installer-macOS-26.dmg` | 927.936 byte | `160a5b8c7f040e5b4ca5aad6f50a1865764e87a465d8eda4c18ea64395b3db78` |
-| `Sky-Go-Fixed-Installer-macOS-26.zip` | 514.407 byte | `7109c5183eb264d193d077b0fde270cfcf5ac7b82f2e936f012d89046b3435e5` |
+| `Sky-Go-Fixed-Installer-macOS-26.dmg` | 928.238 byte | `7d9be8ac8f88f1eeed0fd54b8ffc9d1ac4fa43b6c62cb2237306d04d0b1994a0` |
+| `Sky-Go-Fixed-Installer-macOS-26.zip` | 514.683 byte | `197365f2f2c9429fd27c64cf0599eb6e5a792f9b0d0a7aba19e95045e815e4da` |
 
 ## sorgenti e build
 
