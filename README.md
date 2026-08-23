@@ -41,4 +41,4 @@ Al primo avvio macOS può richiedere **clic destro → Apri** perché questa è 
 
 Sky Go Fixed non modifica abbonamenti, licenze, DRM, limiti dei dispositivi o contenuti disponibili. Un aggiornamento futuro di Sky o macOS potrebbe richiedere una nuova release.
 
-I file di installazione verranno aggiunti qui in una release separata.\
+I file di installazione verranno aggiunti qui in una release separata.
