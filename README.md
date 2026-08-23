@@ -51,7 +51,7 @@ Il repository contiene il launcher Swift, l’installer grafico, lo script di in
 Per creare localmente DMG e ZIP:
 
 ```bash
-./script/build_distributable.sh
+bash ./script/build_distributable.sh
 ```
 
 Gli artefatti vengono scritti in `outputs/`. L’installer scarica i componenti ufficiali solo quando viene eseguito dall’utente.
