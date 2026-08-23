@@ -53,7 +53,7 @@ codesign --force --deep --sign - "$INSTALLER_APP"
 codesign --verify --deep --strict "$INSTALLER_APP"
 
 ditto "$INSTALLER_APP" "$DMG_FOLDER/Installa Sky Go Fixed.app"
-cp "$ROOT_DIR/distribution/LEGGIMI.txt" "$DMG_FOLDER/LEGGIMI.txt"
+cp "$ROOT_DIR/distribution/LEGGIMI.txt" "$DMG_FOLDER/PRIMA DI APRIRE - LEGGIMI.txt"
 
 hdiutil create \
   -volname 'Sky Go Fixed' \
