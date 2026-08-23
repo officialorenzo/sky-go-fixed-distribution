@@ -8,6 +8,10 @@ Sky Go Fixed è un launcher non ufficiale per macOS. Mantiene l'interfaccia e i 
 
 Non è un'applicazione sviluppata o supportata da Sky Italia.
 
+## versione verificata
+
+La versione **1.2** è la versione dell'app Sky Go Fixed. L'installer che la installa è alla versione **1.3**: sono due numeri diversi perché l'installer è il programma che prepara e installa l'app.
+
 ## come si usa
 
 Quando sarà pubblicata una release:
@@ -28,12 +32,29 @@ Ogni persona accede con il proprio account Sky. L'installer non contiene né tra
 
 - macOS 26;
 - Mac Intel e Apple Silicon;
+- launcher universale `arm64 + x86_64`;
 - Rosetta può essere richiesta da macOS al primo avvio su Apple Silicon;
 - connessione Internet necessaria durante l'installazione.
 
+## dati tecnici
+
+- app: Sky Go Fixed **1.2**, build 3;
+- installer: **1.3**, build 4;
+- componenti Sky: Sky Go **26.2.3**;
+- runtime compatibile: Electron **41.3.0** x86_64;
+- formato DMG: 926.272 byte;
+- formato ZIP: 513.022 byte.
+
+### impronte SHA-256
+
+| file | SHA-256 |
+| --- | --- |
+| `Sky-Go-Fixed-Installer-macOS-26.dmg` | `94accddb3a328908ae010c6bc49c40996b9e491055d0797136ae2446ebe3afe2` |
+| `Sky-Go-Fixed-Installer-macOS-26.zip` | `6866a4cd1b5fa0aed41c7569a46eb205be59eceb8d853625b7c8db751bce3cf7` |
+
 ## sicurezza e trasparenza
 
-L'installer scarica i componenti dai server ufficiali Sky ed Electron e ne controlla l'integrità prima di creare l'app. Il file scaricato va sempre verificato tramite il relativo SHA-256 indicato nella release.
+L'installer scarica i componenti dai server ufficiali Sky ed Electron e ne controlla l'integrità prima di creare l'app. Il file scaricato va sempre confrontato con il relativo SHA-256 indicato nella release.
 
 Al primo avvio macOS può richiedere **clic destro → Apri** perché questa è una distribuzione non ufficiale e non firmata con un certificato Apple Developer ID.
 
