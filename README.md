@@ -2,6 +2,14 @@
 
 Una versione di compatibilità per usare Sky Go su macOS 26 quando l'app ufficiale non si avvia correttamente.
 
+## download rapido
+
+- [Scarica il DMG per Mac](https://github.com/officialorenzo/sky-go-fixed-distribution/releases/download/v1.2/Sky-Go-Fixed-Installer-macOS-26.dmg)
+- [Scarica lo ZIP per Mac](https://github.com/officialorenzo/sky-go-fixed-distribution/releases/download/v1.2/Sky-Go-Fixed-Installer-macOS-26.zip)
+- [Apri la release v1.2 e verifica gli hash](https://github.com/officialorenzo/sky-go-fixed-distribution/releases/tag/v1.2)
+
+Il DMG è la procedura più semplice. Se macOS mostra un avviso, usa clic destro → **Apri**. Prima dell'installazione confronta il file con lo SHA-256 pubblicato nella release.
+
 ## che cos'è
 
 Sky Go Fixed è un launcher non ufficiale per macOS. Mantiene l'interfaccia e i servizi originali di Sky Go, ma usa un ambiente di avvio compatibile per evitare il crash che può verificarsi durante l'apertura dell'app su macOS 26.
@@ -14,7 +22,7 @@ La versione **1.2** è la versione dell'app Sky Go Fixed. L'installer che la ins
 
 ## come si usa
 
-Quando sarà pubblicata una release:
+Per installare la release v1.2:
 
 1. scarica il DMG oppure lo ZIP;
 2. apri l'installer con clic destro → **Apri**;
