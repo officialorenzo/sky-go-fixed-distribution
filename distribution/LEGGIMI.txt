@@ -1,0 +1,32 @@
+SKY GO FIXED — INSTALLAZIONE
+
+1. Apri il file DMG oppure estrai completamente lo ZIP.
+2. Fai clic destro su “Installa Sky Go Fixed” e scegli “Apri”.
+3. Conferma “Apri” nell’avviso di macOS.
+4. Lascia terminare il download. Al termine si aprirà Sky Go Fixed.
+
+L’app finale viene installata in:
+/Applications/Sky Go Fixed.app
+
+Se necessario, macOS chiederà la password amministratore per scrivere nella
+cartella Applicazioni. Non sono richiesti Terminale o passaggi manuali: al
+termine l’app si apre automaticamente ed è disponibile dal Finder e da
+Launchpad come una normale applicazione.
+
+Ogni persona accede tramite la schermata originale di Sky con il proprio
+account. L’installer non contiene e non trasferisce account, password, cookie,
+preferenze o download.
+
+L’installer scarica Sky Go 26.2.3 dal server ufficiale Sky ed Electron 41.10.3
+dalla pagina ufficiale Electron. Controlla l’impronta SHA-256 dei download, la
+firma Developer ID e la notarizzazione del pacchetto Sky.
+
+REQUISITI E LIMITI
+
+- macOS 26 e connessione Internet durante l’installazione.
+- Su Apple Silicon, macOS può richiedere Rosetta al primo avvio.
+- Correzione locale non ufficiale e non supportata da Sky.
+- Login, abbonamento, limiti dei dispositivi e DRM restano quelli di Sky.
+- Electron 41.10.3 riduce la latenza dell’interfaccia rispetto al vecchio motore
+  incluso da Sky, ma il codice Sky resta Intel e viene tradotto tramite Rosetta.
+- Un aggiornamento futuro di Sky può richiedere una nuova versione.
