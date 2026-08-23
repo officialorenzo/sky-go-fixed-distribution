@@ -1,0 +1,10 @@
+.DS_Store
+.codex/
+dist/
+outputs/
+work/
+native-launcher/.build/
+package.json
+*.app/
+*.dmg
+*.zip
